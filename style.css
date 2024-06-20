@@ -1,0 +1,64 @@
+/*h1{
+    justify-content: center;
+    display: flex;
+}
+h2{
+    justify-content: center;
+    display: flex;
+    font-weight: lighter;
+    color: lightseagreen;  
+}
+body{
+    background-color: darkslategrey;
+}*/
+
+.maincontent{
+    padding-top: 0%;
+    padding-left:0%;
+  }
+  
+  .col {
+    padding: 25%;
+  }
+  .col-lg{
+      overflow: hidden;
+      position: relative;
+  }
+  
+    /* with the images, i had some issues getting them to form in a group so i had 
+    then on the page 2 in each row*/
+
+  .col-lg img{
+    display:flex;
+      position: absolute;
+      left: -20%;
+      right: -20%;
+      top: -20%;
+      bottom: -20%;
+      margin: 150px;
+      height: 200px;
+      width: 200px
+  }
+  .imgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  body{
+    background-color: lightsteelblue;
+  }
+  h2{
+    font-weight: lighter;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h1{
+    font-weight: bold;
+    font-size: 33px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
